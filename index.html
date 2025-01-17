@@ -8,17 +8,17 @@
     <script src="./script.js"></script>
   </head>
   <body>
-    <header>
-      <nav
-        class="flex flex-row bg-bgray place-content-between px-5 p-0 max-h-24 mx-auto items-center"
-      >
-        <div class="flex flex-row place-items-center gap-3">
-          <img class="size-9" src="./img/3lineslong.svg" alt="logo" />
-          <img class="size-44" src="./img/mobilelogo.svg" alt="logo" />
-        </div>
+    <nav
+      class="flex flex-row bg-bgray place-content-between px-5 p-0 max-h-20 mx-auto items-center sticky top-0"
+    >
+      <div class="flex flex-row place-items-center gap-3">
+        <img class="size-8" src="./img/3lineslong.svg" alt="logo" />
+        <img class="size-44" src="./img/mobilelogo.svg" alt="logo" />
+      </div>
 
-        <img class="size-7" src="./img/3linesshortish.svg" alt="logo" />
-      </nav>
+      <img class="size-8" src="./img/3linesshortish.svg" alt="logo" />
+    </nav>
+    <header>
       <section>
         <img
           class="object-cover h-[21rem]"
@@ -27,10 +27,10 @@
         />
       </section>
     </header>
-    <div class="py-9 px-4">
+    <div class="py-9 mt-8 px-4">
       <h1 class="text-headertext text-5xl font-thin pt-1 py-5">Study</h1>
-      <h2 class="py-2 text-3xl font-semibold  ">Your Future is Here!</h2>
-      <p class="text-ptext font-thin text-lg leading-6 py-4">
+      <h2 class="py-2 text-3xl font-semibold">Your Future is Here!</h2>
+      <p class="text-ptext font-thin text-xl leading-7 py-3">
         Gathering the most complete offer of training programmes in Portugal,
         the 14 faculties of the U.Porto offer unique conditions to those who
         want to build an academic path of excellence and properly valued by the
@@ -40,11 +40,14 @@
     <!-- Line Break -->
     <hr />
 
-    <div class="flex flex-col place-content-stretch place-items-start">
-      <h1>Which course are you looking for</h1>
-      <div class="border-gray-600 border-2">
-        <label> </label>
-        <select>
+    <div
+      class="flex flex-col place-content-stretch place-items-start px-3 pt-6 pb-2 mt-6 mb-2"
+    >
+      <h3 class="text-3xl font-semibold py-1 mb-2">
+        Which course are you looking <br />for?
+      </h3>
+      <div class="border-gray-600 border-2 py-4 px-3 self-stretch my-4">
+        <select class="text-lg text-semibold">
           <option>All</option>
           <option>Bachelor's and Integrated Master’s Degrees</option>
           <option>Bachelor's and Integrated Master’s Degrees</option>
@@ -52,73 +55,87 @@
         </select>
       </div>
       <input
-        class="border-gray-600 border-2"
+        class="border-gray-600 border-2 self-stretch px-4 py-4 text-lg"
         type="text"
         placeholder="Please Enter Course Key Words..."
       />
 
-      <button class="self-center">Search</button>
+      <button
+        class="text-white bg-headertext self-stretch text-2xl font-semibold py-3 my-4"
+      >
+        Search
+      </button>
     </div>
 
-    <div>
-      <h1>Courses from A to Z:</h1>
-      <a href="#">
+    <div class="flex flex-col my-auto mx-4 py-4">
+      <h1 class="text-2xl font-medium pb-3">Courses from A to Z:</h1>
+      <a href="#" class="pb-2 text-2xl font-thin">
         <u><p>Bachelor's and Integrated Master’s Degrees</p></u>
       </a>
 
-      <a href="#">
+      <a href="#" class="pb-2 text-2xl font-thin">
         <u><p>Master’s Degrees</p></u>
       </a>
 
-      <a href="#">
+      <a href="#" class="pb-2 text-2xl font-thin">
         <u><p>Doctorates</p></u>
       </a>
     </div>
 
-    <div>
-      <h1>News</h1>
+    <div class="bg-sgray py-4 px-4">
+      <h1
+        class="text-headertext text-4xl font-extralight pt-6 pb-2 tracking-wide"
+      >
+        News
+      </h1>
       <div>
-        <p>All New</p>
+        <p class="text-md text-headertext font-semibold mb-8">All news</p>
         <img src="" alt="" />
       </div>
-      <article>
-        <div>
-          <p>Campus e Comunidade</p>
-          <div>
-            <a>
+
+      <article class="bg-white pt-4 my-4">
+        <div class="px-4 pb-6">
+          <p class="text-headertext py-2 pb-2 mb-4">Campus e Comunidade</p>
+
+          <div class="mb-16">
+            <a class="text-2xl font-medium">
               <h3>
                 José Manuel Varejão é o novo Pró-Reitor para a Comunicação e
                 Alumni
               </h3>
             </a>
           </div>
-          <time>10 January 2025</time>
-          <a>
-            <img src="" alt="" />
-          </a>
+
+          <time class="">10 January 2025</time>
         </div>
+
+        <a>
+          <img class="self-end" src="./img/jose.jpg" alt="" />
+        </a>
       </article>
-      <div>
-        <button>Back</button>
-        <button>Next</button>
+      <div class="flex flex-row gap-2 my-6 pt-4">
+        <button class="bg-bgray px-2 py-3">Back</button>
+        <button class="bg-headertext px-2 py-3">Next</button>
       </div>
     </div>
 
-    <section>
+    <section class="px-4 py-6 bg-gray-50">
       <div>
-        <div>
-          <h2>We are a University of Excellence!</h2>
+        <div class="py-4">
+          <h2 class="text-headertext text-4xl font-thin tracking-wide">
+            We are a University of Excellence!
+          </h2>
         </div>
 
         <div>
-          <p>
+          <p class="py-4 text-xl font-thin">
             With over 100 years of history, the University of Porto is a
             <b
               >leading teaching and scientific research institution in Portugal
               and worldwide</b
             >
           </p>
-          <p>
+          <p class="py-4 text-xl font-thin">
             Considered
             <b
               >the best Portuguese University and one of the best 100 European
@@ -128,23 +145,78 @@
             combines quality teaching and excellent research with the best
             academic experience.
           </p>
-          <p>
+          <p class="py-4 text-xl font-thin">
             <b>We are waiting for you!</b>
           </p>
           <p>
             <a>
-                <span>See More <span class="sr-only">about the University</span></span>
-                <span class="">
-                    <img src="" alt="arrow" />
-                </span>
+              <span class="text-headertext font-semibold"
+                >See More
+                <span class="sr-only">about the University</span></span
+              >
+              <span class="">
+                <img src="" alt="arrow" />
+              </span>
             </a>
           </p>
         </div>
       </div>
     </section>
+    <hr class="border-2" />
 
-    <section>
+    <section class="px-4 py-6 bg-gray-50">
+      <h2 class="text-headertext text-4xl font-extralight tracking-wide">
+        Research
+      </h2>
+      <h3 class="text-3xl font-semibold py-4">Research University</h3>
+      <p class="pt-4 pb-2 text-lg font-thin tracking-wide text-md">
+        With
+        <a
+          class="text-headertext"
+          href="/portal/en/research/research-ecosystem/rd-units/"
+          >48 research units</a
+        >
+        and a highly qualified scientific community, the University of Porto is
+        <b>one of the largest producers of science in Portugal</b>, contributing
+        to almost
+        <a
+          class="text-headertext"
+          href="/portal/en/research/what-we-research/scientific-production/"
+          >25% of all national scientific output</a
+        >.
+      </p>
+      <p class="pb-4 text-lg font-thin tracking-wide text-md">
+        The excellence of our scientific ecosystem is particularly evident in
+        the
+        <a
+          class="text-headertext"
+          href="/portal/en/explore/about-uporto/rankings/"
+          >leading position the University occupies in the main international
+          rankings of Higher Education</a
+        >.
+      </p>
+      <img class="mb-6" src="./img/5research.jpg" alt="" />
+    </section>
 
+    <section
+      class="bg-headertext place-items-center place-content-center px-4 py-4"
+    >
+      <img src="" alt="" />
+      <div class="py-4 place-items-center place-content-center">
+        <h2 class="text-white text-4xl">U.Porto in Figures</h2>
+        <p class="text-white text-3xl font-thin">2022/2023</p>
+      </div>
+
+      <hr class="" />
+
+      <h2 class="text-white text-4xl">+300</h2>
+      <p class="text-white text-3xl font-thin">Courses</p>
+
+      <h2 class="text-white text-4xl">+35.000</h2>
+      <p class="text-white text-3xl font-thin">Students Enrolled</p>
+
+      <h2 class="text-white text-4xl">48</h2>
+      <p class="text-white text-3xl font-thin">Research Units</p>
     </section>
   </body>
 </html>
