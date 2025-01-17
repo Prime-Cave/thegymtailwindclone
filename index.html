@@ -6,11 +6,12 @@
     <title>University of Porto</title>
     <link rel="stylesheet" href="./css/tailwind.css" />
     <script src="./script.js"></script>
-
   </head>
   <body>
     <header>
-      <nav class="flex flex-row bg-bgray place-content-between px-5 p-0 max-h-24 mx-auto items-center">
+      <nav
+        class="flex flex-row bg-bgray place-content-between px-5 p-0 max-h-24 mx-auto items-center"
+      >
         <div class="flex flex-row place-items-center gap-3">
           <img class="size-9" src="./img/3lineslong.svg" alt="logo" />
           <img class="size-44" src="./img/mobilelogo.svg" alt="logo" />
@@ -19,15 +20,131 @@
         <img class="size-7" src="./img/3linesshortish.svg" alt="logo" />
       </nav>
       <section>
-
-        
-        
-
+        <img
+          class="object-cover h-[21rem]"
+          src="./img/carousel1.jpg"
+          alt="hero"
+        />
       </section>
     </header>
+    <div class="py-9 px-4">
+      <h1 class="text-headertext text-5xl font-thin pt-1 py-5">Study</h1>
+      <h2 class="py-2 text-3xl font-semibold  ">Your Future is Here!</h2>
+      <p class="text-ptext font-thin text-lg leading-6 py-4">
+        Gathering the most complete offer of training programmes in Portugal,
+        the 14 faculties of the U.Porto offer unique conditions to those who
+        want to build an academic path of excellence and properly valued by the
+        labour market.
+      </p>
+    </div>
+    <!-- Line Break -->
+    <hr />
 
-    <div >
+    <div class="flex flex-col place-content-stretch place-items-start">
+      <h1>Which course are you looking for</h1>
+      <div class="border-gray-600 border-2">
+        <label> </label>
+        <select>
+          <option>All</option>
+          <option>Bachelor's and Integrated Master’s Degrees</option>
+          <option>Bachelor's and Integrated Master’s Degrees</option>
+          <option>Doctorates</option>
+        </select>
+      </div>
+      <input
+        class="border-gray-600 border-2"
+        type="text"
+        placeholder="Please Enter Course Key Words..."
+      />
 
-    </div >
+      <button class="self-center">Search</button>
+    </div>
+
+    <div>
+      <h1>Courses from A to Z:</h1>
+      <a href="#">
+        <u><p>Bachelor's and Integrated Master’s Degrees</p></u>
+      </a>
+
+      <a href="#">
+        <u><p>Master’s Degrees</p></u>
+      </a>
+
+      <a href="#">
+        <u><p>Doctorates</p></u>
+      </a>
+    </div>
+
+    <div>
+      <h1>News</h1>
+      <div>
+        <p>All New</p>
+        <img src="" alt="" />
+      </div>
+      <article>
+        <div>
+          <p>Campus e Comunidade</p>
+          <div>
+            <a>
+              <h3>
+                José Manuel Varejão é o novo Pró-Reitor para a Comunicação e
+                Alumni
+              </h3>
+            </a>
+          </div>
+          <time>10 January 2025</time>
+          <a>
+            <img src="" alt="" />
+          </a>
+        </div>
+      </article>
+      <div>
+        <button>Back</button>
+        <button>Next</button>
+      </div>
+    </div>
+
+    <section>
+      <div>
+        <div>
+          <h2>We are a University of Excellence!</h2>
+        </div>
+
+        <div>
+          <p>
+            With over 100 years of history, the University of Porto is a
+            <b
+              >leading teaching and scientific research institution in Portugal
+              and worldwide</b
+            >
+          </p>
+          <p>
+            Considered
+            <b
+              >the best Portuguese University and one of the best 100 European
+              institutions</b
+            >
+            according to the most important Higher Education rankings, U.Porto
+            combines quality teaching and excellent research with the best
+            academic experience.
+          </p>
+          <p>
+            <b>We are waiting for you!</b>
+          </p>
+          <p>
+            <a>
+                <span>See More <span class="sr-only">about the University</span></span>
+                <span class="">
+                    <img src="" alt="arrow" />
+                </span>
+            </a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+
+    </section>
   </body>
 </html>
